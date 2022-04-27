@@ -39,7 +39,7 @@ function Details() {
 
                 <div>
                     <p className={styles.paragraph}>n order for a business to become a top company on Clutch, they need to earn a high number of five-star reviews just like this one. We appreciate this criterion because it places the power in the hands of people that have direct experience with our work.</p>
-                    <p className={styles.paragraph}>It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.</p>
+                    <p className={styles.paragraph}>{`It’s because of this that we want to express our sincere gratitude for everyone that had a part in making this award a reality through writing reviews. Their effort in sharing their thoughts on our performance was the driving force behind allowing our team to claim this accolade.`}</p>
                 </div>
                 <div><img src={"/line.jpg"} alt="image not found" /></div>
 
