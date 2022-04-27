@@ -58,6 +58,8 @@ function Details() {
                     <div className={styles.inputDisplay}>
                         <input className={styles.input} type="Email" placeholder="Enter email subscribe  our to news" />
                         <div className={styles.icon}><img className={styles.imageIcon} src={"right-arrow.png"} alt="" /></div>
+                   
+                        {/* <div className={styles.icon}><img className={styles.imageIcon} src={"right-arrow.png"} alt="" /></div> */}
                     </div>
                     <div className={styles.bgColor}>
                         <h2 className={styles.title}>Are you ready to work with us?</h2>
