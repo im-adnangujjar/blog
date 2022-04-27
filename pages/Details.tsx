@@ -43,7 +43,7 @@ function Details() {
                 </div>
                 <div><img src={"/line.jpg"} alt="image not found" /></div>
 
-                <p className={styles.paragraph1}><i>“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.</i>”</p>
+                <p className={styles.paragraph1}>{`<i>“We're very pleased to receive Clutch's top firms in Switzerland award. It showcases that our excellence is not a temporary act, but a habit.</i>”`}</p>
                 <p className={styles.paragraph}>💬 Denis Gomes Iljazi, Co-Owner of Axisbits</p>
 
                 <p className={styles.paragraph}>We encourage everyone to learn more about our team and services by going through our website. If you like what you see why not give us a call and partner with us for your next project.</p>
