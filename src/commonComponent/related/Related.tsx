@@ -1,7 +1,11 @@
 import React from 'react'
 import styles from "../../../styles/Related.module.css"
 
-function Related({ Card2 }) {
+interface Card2Props{
+  Card2:any;
+ } 
+ const Related: React.FC<Card2Props> = ({Card2}: Card2Props) => {
+
   return (
     <div className={styles.mainContainer}>
 

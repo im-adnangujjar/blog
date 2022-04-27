@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from "../../../styles/Card.module.css";
-
-
-function Card({ Cards }) {
+interface CardsProps{
+    Cards:any;
+   }
+const Card: React.FC<CardsProps> = ({Cards}: CardsProps) => {
     return (
         <div className={styles.display}>
             <div>

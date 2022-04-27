@@ -1,7 +1,10 @@
 import React from 'react'
 import styles from "../../../styles/Card.module.css";
-
-function DesignCard({ Design }) {
+import { Design } from '../../constants/Constant';
+interface DesignProps{
+ Design:any;
+}
+const DesignCard: React.FC<DesignProps> = ({Design}: DesignProps) => {
   return (
     <div className={styles.display}>
       <div>

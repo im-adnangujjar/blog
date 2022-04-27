@@ -2,7 +2,10 @@ import { style } from '@mui/system'
 import React from 'react'
 import styles from "../../../styles/ImagesCards.module.css"
 
-function ImagesCard({Card1}) {
+interface Card1Props{
+  Card1:any;
+ }
+  const ImagesCard: React.FC<Card1Props> = ({Card1}: Card1Props) => {
   return (
     <div className={styles.maiContainer}>
         <img  className={styles.image}src={Card1.image} alt="image not found"/>
