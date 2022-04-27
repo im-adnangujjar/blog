@@ -56,7 +56,7 @@ function Details() {
                 <div className={styles.box}>
                     <h1 className={styles.subscribe}>Subscribe to our newsletter:</h1>
                     <div className={styles.inputDisplay}>
-                        <input className={styles.input} type="Email" placeHolder="Enter email subscribe  our to news" />
+                        <input className={styles.input} type="Email" placeholder="Enter email subscribe  our to news" />
                         <div className={styles.icon}><img className={styles.imageIcon} src={"right-arrow.png"} alt="" /></div>
                     </div>
                     <div className={styles.bgColor}>

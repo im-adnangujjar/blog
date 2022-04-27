@@ -29,7 +29,7 @@ function DesignTab() {
 
             {
               Design.map((item, index) => {
-                return <Grid item xs={12} sm={6} md={4} lg={12}><DesignCard Design={item} />  </Grid>
+                return <Grid item xs={12} sm={6} md={4} lg={12} key={index}><DesignCard Design={item} />  </Grid>
               })}
           </Grid>
 
@@ -39,7 +39,7 @@ function DesignTab() {
       <Grid container spacing={0}>
         {
           Card2.map((item, index) => {
-            return <Grid item xs={12} sm={6} md={4} lg={4}><Related Card2={item} />  </Grid>
+            return <Grid item xs={12} sm={6} md={4} lg={4} key={index}><Related Card2={item} />  </Grid>
           })
         }
       </Grid>

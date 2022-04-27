@@ -2,7 +2,6 @@ import React from 'react'
 import styles from "../../../../styles/FirstSection.module.css";
 import { Cards } from '../../../constants/Constant'
 import Card from "../../../commonComponent/card/Card";
-// import Details from "../../../../pages/Details"
 
 import { Grid } from '@mui/material';
 
@@ -29,7 +28,7 @@ function FirstSection() {
       <Grid container spacing={0}>
         {
           Cards.map((item, index) => {
-            return<Grid item xs={12} sm={6} md={4} lg={12}>
+            return<Grid item xs={12} sm={6} md={4} lg={12} key={index}>
              <Card Cards={item} />
              </Grid>
           }
